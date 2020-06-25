@@ -2,7 +2,6 @@ FROM debian:jessie-slim
 LABEL maintainer="iduxx"
 ENV TZ=Asia/Shanghai
 
-ADD sources.list /etc/apt/
 
 RUN set -ex && \
 apt-get update && \
